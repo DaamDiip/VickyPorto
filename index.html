@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Portfolio Website</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+        <span>Vicky Chandra</span>
+      </div>
+
+      <div class="links">
+        <div class="link active" data-aos="fade-up" data-aos-delay="100">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="link" data-aos="fade-up" data-aos-delay="200">
+          <a href="about.html">About</a>
+        </div>
+        <div class="link" data-aos="fade-up" data-aos-delay="300">
+          <a href="skill.html">Skill</a>
+        </div>
+        <div class="link" data-aos="fade-up" data-aos-delay="400">
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section>
+    <div class="main-container">
+      <div class="content">
+        <h1 data-aos="fade-left" data-aos-delay="700">
+          Hi, my name is <span>Vicky Chandra</span>
+        </h1>
+
+        <div class="typewriter" data-aos="fade-right" data-aos-delay="900">
+          Web & IoT <span class="typewriter-text"></span><label>|</label>
+        </div>
+
+        <p data-aos="flip-down" data-aos-delay="1100">
+          Combining web development skills (HTML, JavaScript, Java) with practical IoT experience. Currently exploring
+          Next.js and Express.js to build smart, connected, and responsive web applications.
+        </p>
+
+        <div class="btn" data-aos="zoom-out" data-aos-delay="1300">
+          <a href="about.html">
+            <button>Learn About Me</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="image" data-aos="fade-up" data-aos-delay="1600">
+        <img src="img/Vq.jpeg" alt="Vicky Chandra" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 0 });
+  </script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
